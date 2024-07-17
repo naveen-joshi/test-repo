@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-between align-items-center">
+  <h5>Spotlight</h5>
+  <p-button label="Customize" [text]="true" severity="secondary" />
+</div>
+
+<div class="row mt-2">
+  <div class="col-md-3" *ngFor="let card of cards">
+    <app-spotlight-cards></app-spotlight-cards>
+  </div>
+</div>
